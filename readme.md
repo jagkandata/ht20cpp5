@@ -50,10 +50,10 @@ int main(int argc, char *argv[]) {
 #include <iostream>
 using namespace std;
 
-typedef struct {
+struct Bankkonto {
     string innehavare;
     double saldo;
-}Bankkonto;
+};
 
 void deposit(Bankkonto&);
 void withdraw(Bankkonto&);
