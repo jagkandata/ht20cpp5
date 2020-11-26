@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
         }elseif(action == 'w'){
             widthdraw(konto); // Ska presentera hur mycket pengar man har på kontot och sedan fråga hur mycket man vill ta ut.
                               // Det ska inte vara möjligt att ta ut mer pengar än man har på kontot.
+                              // Det ska inte heller vara möjligt att ta ut en negativ summa.
                               // Efter att man har tagit ut pengar ska nya saldot skrivas ut.
         }else{
             cancel(); // Ska skriva ut att man avbröt samt saldot på kontot.
