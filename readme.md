@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
         cin >> action;
         if(action == 'd' || action == 'D'){
             deposit(konto); // Ska presentera hur mycket pengar man har på kontot och sedan fråga hur mycket man vill sätta in.
+                            // Man ska inte kunna sätta in en negativ summa pengar.
                             // Efter att pengar satts in ska nya saldot skrivas ut.
         }elseif(action == 'w'){
             widthdraw(konto); // Ska presentera hur mycket pengar man har på kontot och sedan fråga hur mycket man vill ta ut.
